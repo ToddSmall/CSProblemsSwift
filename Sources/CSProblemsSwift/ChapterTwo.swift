@@ -23,4 +23,14 @@ extension String {
     }
 }
 
-
+func stringToGene(_ s: String) -> Gene {
+    var gene = Gene()
+    let chunks = s.group(of: 3).map( {Array($0)} )
+    for chunk in chunks {
+        let n0 = Nucleotide.init(rawValue: chunk[0])
+        let n1 = Nucleotide.init(rawValue: chunk[1])
+        let n2 = Nucleotide.init(rawValue: chunk[2])
+        gene.append((n0!, n1!, n2!))
+    }
+    return gene
+}

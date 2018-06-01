@@ -21,12 +21,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		C711694020C0FBA5004F05A9 /* ChapterTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C711693F20C0FBA5004F05A9 /* ChapterTwoTests.swift */; };
+		C71B474920C1061900C383B1 /* ChapterTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C711693F20C0FBA5004F05A9 /* ChapterTwoTests.swift */; };
 		C721DCB420BFB9CF00B7B0A4 /* ChapterTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C721DCB320BFB9CF00B7B0A4 /* ChapterTwo.swift */; };
 		OBJ_22 /* ChapterOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ChapterOne.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* ChapterOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ChapterOneTests.swift */; };
-		OBJ_41 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
 		OBJ_43 /* CSProblemsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CSProblemsSwift::CSProblemsSwift::Product" /* CSProblemsSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		"CSProblemsSwift::CSProblemsSwift::Product" /* CSProblemsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CSProblemsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"CSProblemsSwift::CSProblemsSwiftTests::Product" /* CSProblemsSwiftTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CSProblemsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* ChapterOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterOneTests.swift; sourceTree = "<group>"; };
-		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* ChapterOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +88,6 @@
 			children = (
 				OBJ_12 /* ChapterOneTests.swift */,
 				C711693F20C0FBA5004F05A9 /* ChapterTwoTests.swift */,
-				OBJ_13 /* XCTestManifests.swift */,
 			);
 			name = CSProblemsSwiftTests;
 			path = Tests/CSProblemsSwiftTests;
@@ -216,7 +213,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				C711694020C0FBA5004F05A9 /* ChapterTwoTests.swift in Sources */,
 				C721DCB420BFB9CF00B7B0A4 /* ChapterTwo.swift in Sources */,
 				OBJ_22 /* ChapterOne.swift in Sources */,
 			);
@@ -234,8 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				C71B474920C1061900C383B1 /* ChapterTwoTests.swift in Sources */,
 				OBJ_40 /* ChapterOneTests.swift in Sources */,
-				OBJ_41 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

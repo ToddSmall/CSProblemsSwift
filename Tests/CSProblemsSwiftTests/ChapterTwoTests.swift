@@ -5,10 +5,14 @@ final class ChapterTwoTests: XCTestCase {
     func testStringGrouper() {
         let s = "Drummer is great!"
     
-        XCTAssertEqual(s.group(of: 3), ["Dru", "mme"])
+        XCTAssertEqual(s.group(of: 3),
+                       ["Dru", "mme", "r i", "s g", "rea", "t!"])
     }
     
-    static var allTests = [
-        ("testStringGrouper", testStringGrouper)
-    ]
+    func teststringToGene() {
+        let s = "ACGTGG"
+        let computed = stringToGene(s)
+        
+        XCTAssertEqual(computed[0], Nucleotide.A)
+    }
 }
