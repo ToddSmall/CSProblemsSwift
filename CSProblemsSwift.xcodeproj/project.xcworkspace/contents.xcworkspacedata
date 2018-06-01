@@ -2,16 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/tsmall/src/CSProblemsSwift/Tests/CSProblemsSwiftTests/Chapter1Tests.swift">
-   </FileRef>
-   <FileRef
-      location = "absolute:/Users/tsmall/src/CSProblemsSwift/Sources/CSProblemsSwift/Chapter1.swift"
-      assignedFileDataType = "public.swift-source">
-   </FileRef>
-   <FileRef
-      location = "group:../README.md">
-   </FileRef>
-   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>

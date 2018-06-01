@@ -40,7 +40,7 @@ final class ChapterOneTests: XCTestCase {
         XCTAssertEqual(towerC.pop(), 2)
         XCTAssertEqual(towerC.pop(), 1)
     }
-    
+
     static var allTests = [
         ("testFib1", testFib1),
         ("testFib2", testFib2),
